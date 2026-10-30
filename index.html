@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>MALD INVESTIMENTOS, SARL</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- CABEÇALHO -->
+
+    <header>
+
+        <div class="flags">
+    <button onclick="changeLanguage('pt')">🇵🇹</button>
+    <button onclick="changeLanguage('en')">🇬🇧</button>
+    <button onclick="changeLanguage('fr')">🇫🇷</button>
+</div>
+
+        <div class="logo">
+            <img src="images/logo.png" alt="MALD Investimentos">
+        </div>
+
+        <div class="menu-toggle" id="menu-toggle">
+            ☰
+        </div>
+
+        <nav id="menu">
+            <ul>
+                <li><a href="#inicio" id="nav-home">Início</a></li>
+                <li><a href="#sobre" id="nav-about">Sobre</a></li>
+                <li><a href="#servicos" id="nav-services">Serviços</a></li>
+                <li><a href="#contactos" id="nav-contact">Contactos</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <!-- HERO -->
+
+    <section id="inicio" class="hero">
+
+        <img src="images/banner.png" alt="MALD Investimentos" class="hero-banner">
+
+        <h1 id="hero-company">
+            MALD INVESTIMENTOS, SARL
+        </h1>
+
+        <h2 id="hero-title">
+            Importação e Exportação de Produtos Agrícolas
+        </h2>
+
+        <p id="hero-text">
+            Qualidade, confiança e crescimento para o sector agrícola.
+        </p>
+
+        <a href="#contactos" class="btn" id="hero-button">
+
+            Contactar Agora
+
+        </a>
+
+    </section>
+
+    <!-- SOBRE -->
+
+    <section id="sobre">
+
+        <h2 id="about-title">
+            Sobre Nós
+        </h2>
+
+        <p id="about-text">
+            A MALD INVESTIMENTOS, SARL é uma empresa especializada na importação,
+            exportação e comercialização de produtos agrícolas.
+        </p>
+
+    </section>
+
+   <!-- SERVIÇOS -->
+<section id="servicos">
+    <h2 id="services-title">Os Nossos Serviços</h2>
+
+    <div class="cards">
+
+        <div class="card">
+            <h3 id="service1-title">Importação</h3>
+            <p id="service1-text">
+                Fornecimento de produtos agrícolas e equipamentos para diversos mercados.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3 id="service2-title">Exportação</h3>
+            <p id="service2-text">
+                Ligação entre produtores e mercados internacionais.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3 id="service3-title">Consultoria</h3>
+            <p id="service3-text">
+                Apoio estratégico para investimentos agrícolas.
+            </p>
+        </div>
+
+    </div>
+</section>
+
+<!-- CONTACTOS -->
+<section id="contactos">
+
+    <h2 id="contacts-title">Contactos</h2>
+
+    <div class="contact-container">
+
+        <div class="contact-info">
+            <p>
+                📍 Rua Vitorino Costa,
+                Prédio Ancar,
+                Praça, Bissau,
+                Guiné-Bissau
+            </p>
+
+            <p>📞 +245 95 530 44 00</p>
+            <p>📞 +245 95 611 88 77</p>
+            <p>✉ mald@gmail.com</p>
+        </div>
+
+        <form class="contact-form">
+
+            <input
+                id="nome"
+                type="text"
+                placeholder="Nome"
+                required
+            >
+
+            <input
+                id="email"
+                type="email"
+                placeholder="E-mail"
+                required
+            >
+
+            <input
+                id="assunto"
+                type="text"
+                placeholder="Assunto"
+                required
+            >
+
+            <textarea
+                id="mensagem"
+                rows="6"
+                placeholder="Escreva a sua mensagem..."
+                required
+            ></textarea>
+
+            <button
+                id="submit-btn"
+                type="submit">
+                Enviar Mensagem
+            </button>
+
+        </form>
+
+    </div>
+
+</section>
+
+    <!-- RODAPÉ -->
+
+    <footer>
+
+        <p id="footer-text">
+            © 2026 MALD INVESTIMENTOS, SARL.
+            Todos os direitos reservados.
+        </p>
+
+    </footer>
+
+    <!-- WHATSAPP -->
+
+    <a href="https://wa.me/245955304400" class="whatsapp" target="_blank">
+
+        💬
+
+    </a>
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
