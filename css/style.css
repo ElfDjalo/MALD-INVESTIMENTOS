@@ -287,6 +287,29 @@ footer {
 }
 
 /* RESPONSIVO */
+.mapa{
+    margin-top:15px;
+}
+
+.mapa iframe{
+    width:50px;
+    height:30px;
+    border:none;
+    border-radius:4px;
+}
+
+@media (max-width:768px){
+
+    .mapa{
+        margin-top:10px;
+    }
+
+    .mapa iframe{
+        width:120px;
+        height:70px;
+    }
+
+}
 
 @media (max-width: 768px) {
 
@@ -397,4 +420,15 @@ footer {
         font-size:1.2rem;
     }
 
+}
+
+.mapa{
+    flex:1;
+    min-width:300px;
+}
+
+.mapa iframe{
+    width:100%;
+    border-radius:10px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.15);
 }
