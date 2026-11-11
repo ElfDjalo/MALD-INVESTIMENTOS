@@ -193,10 +193,10 @@ section h2 {
 
 /* SERVIÇOS */
 
-.cards {
-    display: flex;
-    gap: 20px;
-    flex-wrap: wrap;
+.cards{
+    display:flex;
+    flex-direction:column;
+    gap:30px;
 }
 
 .card{
